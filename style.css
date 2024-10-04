@@ -176,7 +176,7 @@ main {
 
 @media only screen and (orientation: portrait) and (min-width: 400px) {
     .player__tile {
-        height: 200px;
+        height: 100px;
         max-width: 400px;
     }
     .player__digits {
