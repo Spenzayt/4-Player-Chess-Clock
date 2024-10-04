@@ -176,10 +176,11 @@ main {
 
 @media only screen and (orientation: portrait) and (min-width: 400px) {
     .player__tile {
-        height: 400px;
+        height: 200px;
+        max-width: 400px;
     }
     .player__digits {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 }
 
