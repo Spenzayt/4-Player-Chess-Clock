@@ -182,6 +182,9 @@ main {
     .player__digits {
         font-size: 3rem;
     }
+    .timer__start-bttn, 
+    .timer__reset-bttn {
+        max-width: 300px;
 }
 
 @media only screen and (min-width: 1150px) {
