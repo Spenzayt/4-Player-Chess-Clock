@@ -174,10 +174,10 @@ main {
     }
 }
 
-@media only screen and (orientation: portrait) and (min-width: 400px) {
+@media only screen and (orientation: portrait) and (min-width: 300px) {
     .player__tile {
-        height: 100px;
-        max-width: 400px;
+        max-height: 100px;
+        max-width: 300px;
     }
     .player__digits {
         font-size: 3rem;
