@@ -53,8 +53,9 @@ main {
   }
   
   .player__tile {
+      height: 100px;
+      max-width: 300px;
       width: 100%;
-      height: 300px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -101,8 +102,11 @@ main {
     margin-top: 5px;
     background-color: #2D2C2C;
 }
-.player__digits {
-    font-size: 5.5rem;
+.player__digits1,
+.player__digits2,
+.player__digits3,
+.player__digits4 {
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -139,99 +143,4 @@ main {
 .timer__reset-bttn:hover {
     color: #FFFFFF;
     background-color: #0071D5;
-}
-
-
-@media only screen and (orientation: landscape) and (max-width: 1150px) {
-    .player {
-        margin: 1em auto 10px auto;
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction:
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
- 
-    .player__tile {
-        height: 300px;
-        max-width: 300px;
-    }
-    .player-2 {
-        margin-top: auto;
-    }
-    .player-3 {
-        margin-top: auto;
-    }  
-    .player-4 {
-        margin-top: auto;
-    }  
-    .player__digits {
-        font-size: 5.5rem;
-    }
-    .timer__buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin: 0 auto;
-        max-width: 810px;
-    }
-    .timer__start-bttn, 
-    .timer__reset-bttn {
-        padding: .7em;
-        font-size: 1.8rem;
-    }
-}
-}
-
-@media only screen and (orientation: portrait) and (min-width: 300px) {
-    .player__tile {
-        max-height: 100px;
-        max-width: 300px;
-    }
-    .player__digits {
-        font-size: 3rem;
-    }
-    .timer__start-bttn, 
-    .timer__reset-bttn {
-        max-width: 300px;
-}}
-
-@media only screen and (min-width: 1150px) {
-    .player {
-        margin: 1em auto 10px auto;
-        max-width: 1920px;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-    .player__tile {
-        height: 400px;
-    }
-    .player-2 {
-        margin-top: auto;
-    }
-    .player-3 {
-        margin-top: auto;
-    }  
-    .player-4 {
-        margin-top: auto;
-    }  
-    .player__digits {
-        font-size: 7rem;
-    }
-    .timer__buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin: 0 auto;
-        max-width: 810px;
-    }
-    .timer__start-bttn, 
-    .timer__reset-bttn {
-        padding: .7em;
-        font-size: 1.8rem;
-    }
 }
