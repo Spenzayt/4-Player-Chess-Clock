@@ -1,4 +1,3 @@
-
 let playing = false;
 let currentPlayer = 1;
 const timerPanel = document.querySelector('.player');
@@ -44,16 +43,16 @@ const timeWarning = (player, min, sec) => {
     // Change the numbers to red during the last 30 seconds.
     if (min < 1 && sec <= 30) {
         if (player === 1) {
-            document.querySelector('.player-1 .player__digits').style.color = '#CC0000';
+            document.querySelector('.player-1 .player__digits1').style.color = '#CC0000';
         }
         if (player === 2) {
-            document.querySelector('.player-2 .player__digits').style.color = '#CC0000';
+            document.querySelector('.player-2 .player__digits2').style.color = '#CC0000';
         } 
-        if (player === 2) {
-            document.querySelector('.player-3 .player__digits').style.color = '#CC0000';
+        if (player === 3) {
+            document.querySelector('.player-3 .player__digits3').style.color = '#CC0000';
         } 
-        if (player === 2) {
-            document.querySelector('.player-4 .player__digits').style.color = '#CC0000';
+        if (player === 4) {
+            document.querySelector('.player-4 .player__digits4').style.color = '#CC0000';
         } 
     }
 }
