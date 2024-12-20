@@ -1,7 +1,7 @@
 # **4-Player Chess Clock**
 
 A four-player chess clock implemented in **HTML**, **CSS**, and **JavaScript**, designed for a Board Game project. This clock is fully functional in a browser and allows four players to manage a **10-minute** timer.
-Create in one day (Only by me)
+- Create in one day (Only by me)
 
 ## **Features**
 
